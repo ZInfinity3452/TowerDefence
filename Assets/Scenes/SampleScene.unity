@@ -244,7 +244,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be80a43ae434e994a9b4583eb747a861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kafelek: {fileID: 2351466941919293331, guid: e19d7604b569f9e4691c02689cd3ff9b, type: 3}
+  kafelek:
+  - {fileID: 14743250736121029, guid: 1da53f621b9e0b64e83c55cadaa85783, type: 3}
+  - {fileID: 3760378986304417063, guid: f3d00c46702bb354782fdc31f90cab9b, type: 3}
+  - {fileID: 249370232101286596, guid: b5e6f8cb446eb0345b5be4d25e3c60c5, type: 3}
+  - {fileID: 1836069761964177202, guid: 2c303d2424ced6a4d8231a19f25ca7f8, type: 3}
+  - {fileID: 7851811766531354518, guid: 0c2a3c2201cdf1140ae07946f076b373, type: 3}
+  - {fileID: 8214051989253930082, guid: 7abb13977af42404c90da734e4408fe7, type: 3}
+  - {fileID: 5585547464620656701, guid: 95b2deea2f3de2643ba11c05d6f5f78d, type: 3}
+  - {fileID: 6043259179889940159, guid: 20c3a6a53835f3445be4d970bd32c988, type: 3}
+  - {fileID: 5709356880761896735, guid: 606e2dc9d7136a0489b4f5634813ca14, type: 3}
   rozmiarKafelka: 0
 --- !u!4 &1395805559
 Transform:
