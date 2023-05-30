@@ -26,7 +26,8 @@ public class LevelManager : MonoBehaviour
             "0010300",
             "2222451",
             "0100372",
-            "0018",
+            "0018610",
+            "1103100"
 
         };
         int mapX = Mapa[0].ToCharArray().Length;
