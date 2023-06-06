@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour
         int numerKafelka = (int)System.Char.GetNumericValue(rodzajKafelka);
         GameObject nK = Instantiate(kafelek[numerKafelka], new Vector2(LewyKamery.x + rozmiarKafelka * x, LewyKamery.y + rozmiarKafelka * y), Quaternion.identity);
 
-        Instantiate(kafelek[numerKafelka], new Vector2(LewyKamery.x + rozmiarKafelka * x, LewyKamery.y + rozmiarKafelka * y), Quaternion.identity);
+        nK.GetComponent<kf>().Setup(new Punkt(x, y));
 
     }
 

@@ -12,7 +12,8 @@ public class kf : MonoBehaviour
 
     private void OnMouseOver()
     {
-        print(PS.X+","+PS.Y);
+        print(PS.X + "," + PS.Y);
+        this.GetComponent<SpriteRenderer>().color = Color.white;
     }
     // Start is called before the first frame update
     void Start()
